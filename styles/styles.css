@@ -8,6 +8,36 @@
 body{
     font-family: var(--default-font-family);
 }
+nav {
+  padding: 20px 0;
+}
+.logo{
+  max-height: 40px;
+  margin: 0;
+}
+
+nav ul{
+  padding:0;
+  margin: 0;
+}
+
+nav li{
+  list-style: none;
+  display: inline;
+  line-height: 42px;
+}
+
+nav a{
+  text-decoration: none;
+  color:#272142;
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+nav a:hover, nav li.active a{
+  color: var(--branding-color);
+  transition: all 0.3s ease-in-out;
+}
 
 h1,
 h2,
@@ -107,6 +137,17 @@ p {
   padding: 120px 60px;
 }
 
+a {
+  color: var(--branding-color);
+  text-decoration: none;
+  font-weight: bold;
+} 
+a:hover {
+  color: #272142;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
 @media (max-width: 960px) {
 
   h1{
@@ -128,5 +169,9 @@ p {
   .content-container {
    text-align: center;
    padding: 0;
+  }
+
+  nav a{
+    font-size: 12px;
   }
 }
