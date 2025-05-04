@@ -179,7 +179,7 @@ footer .email-link:hover {
 }
 
 footer .social-link a {
-  margin: 0 20px;
+  margin: 0 20px 0 20x;
   color: var(--branding-color);
   background-color: var(--secondary-color);
   padding: 10px 14px;
@@ -218,4 +218,6 @@ footer .social-link a:hover {
   nav a{
     font-size: 12px;
   }
+
+
 }
